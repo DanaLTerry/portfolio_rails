@@ -5,7 +5,4 @@ class StaticController < ApplicationController
 
     def tech
     end
-
-    def art 
-    end
 end
