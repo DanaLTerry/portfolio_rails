@@ -13,3 +13,232 @@
  *= require_tree .
  *= require_self
  */
+ * { 
+    box-sizing: border-box; 
+    margin:0;
+    padding:0;
+  } 
+  
+  .navbar{
+    color: #2984A0!important;
+  }
+    
+    header {
+      top: 0;
+      width:100%;
+      position: fixed;
+      padding: 1rem 2rem;
+      height: 3.5rem;
+      background-color:#2980b9;
+      text-align: center;
+    }
+    
+    .pagetitle{
+      text-align: center!important;
+      color: #2984A0;
+      font-family: Avenir Next !important;
+      margin-top: 50px;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+    
+    .dana-img {
+        float: left;
+        margin-right: 20px;
+        height: 300px;
+        width: auto;
+    }
+    
+    .photoheading{
+      float: center!important;
+      margin-right: 0px;
+      margin-left: 0px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
+    
+    
+    .menu a{
+    color: #ffffff !important;	
+        }
+        
+    
+    
+    ul {
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+      padding: 0 .5rem;
+    }
+    main {
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 5rem;
+    }
+    
+    p {
+      margin-bottom: 1.3rem;
+    }
+    
+    .impt {
+      font-weight: bold;
+      font-size: 1.7rem;
+      line-height: 2.3rem;
+    }
+    
+    img.profile {
+        vertical-align: baseline;
+    }
+  
+    .nav_img {
+      height: 50px;
+      width: auto;
+    }
+    
+    .picinfo{
+      color: #2984A0!important;
+      font-family: Avenir Next !important;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 10x!important; 
+    }
+    
+    .picmatting{
+      margin-left: 80px;
+      margin-right: 80px;
+      margin-bottom: 5px;
+      background-color: #ebebeb;
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .container-vertical{
+      display: flex; 
+      height: 700px; 
+      width: 100%;
+      justify-content: space-around;
+    }
+    
+    .two-by-two-vertical {
+      width: 45%; 
+      background-color: #ebebeb;
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .container-horizontal{
+      display: flex; 
+      height: 100%; 
+      width: 100%;
+      justify-content: space-around;
+    }
+    
+    .two-by-two-horizontal{
+      width: 100%; 
+      margin-bottom: 5px;
+      background-color: #ebebeb;
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    
+    .one-by-one-horizontal{
+      width: 700px; 
+      background-color: #ebebeb;
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .titleFCYD{
+      margin-bottom: 0!important;
+      margin-top: 0!important;
+      
+    }
+    
+    .poem{
+      color: #2984A0;
+      font-family: Avenir Next !important;
+      text-align: center!important;
+    }
+    
+    .pagetext{
+      color: #2984A0;
+      font-family: Avenir Next !important;
+      font-size: 18px!important; 
+      text-align: justify!important;
+      line-height: 1.5rem!important;
+      margin-left: 60px!important;
+      margin-right: 60px!important;
+      margin-top: 60px!important;
+    }
+    
+    .techpagetext{
+      color: #2984A0;
+      font-family: Avenir Next !important;
+      font-size: 18px!important; 
+      text-align: center!important;
+      line-height: 1.5rem!important;
+      margin-left: 60px!important;
+      margin-right: 60px!important;
+      margin-top: 60px!important;
+    }
+    
+    .buttons{
+      color: #2984A0 !important;
+      font-family: Avenir Next !important;
+    }
+    
+    .copyright{
+      color: #2984A0!important;
+      font-family: Avenir Next !important;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 10x!important; 
+    }
+  
+    .SCLogo{
+      height: auto;
+      width: 700px;
+    }
+  
+    .SCShort{
+      height: auto;
+      width: 200px;
+    }
+  
+    .SNLogo{
+      height: auto;
+      width: 500px;
+    }
+  
+    .Innovate{
+      height: auto;
+      width: 600px;
+    }
+  
+    .Innovate2{
+      height: auto;
+      width: 600px;
+    }
+    
+    .vertical{
+      height: auto;
+      width: 450px;
+    }
+  
+    .horizontal{
+      height: auto;
+      width: 600px;
+    }
+  
+    .vertical_FCYD{
+      height: auto!important;
+      width: 450px!important;
+      margin-top: auto!important;
+    }
+    
